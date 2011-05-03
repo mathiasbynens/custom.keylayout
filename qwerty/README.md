@@ -18,6 +18,7 @@ The following special characters are now available through key combinations:
 * `⌥` + `⇧` + `S` = `⇧`
 * `⌥` + `⇧` + `O` = `⌥`
 * `⌥` + `⇧` + `M` = `−` (minus sign)
+* `⌥` + `⇧` + `=` = `≈`
 
 ## How to install
 
