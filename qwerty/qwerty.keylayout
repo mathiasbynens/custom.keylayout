@@ -398,8 +398,8 @@
 			<key code="16" output="→"/>
 			<key code="17" output="™"/>
 			<key code="18" output="¡"/>
-			<key code="19" output="²"/>
-			<key code="20" output="³"/>
+			<key code="19" output="€"/>
+			<key code="20" output="☃"/>
 			<key code="21" output="¢"/>
 			<key code="22" output="§"/>
 			<key code="23" output="∞"/>
@@ -494,7 +494,7 @@
 			<key code="0" output="Å"/>
 			<key code="1" output="⇧"/>
 			<key code="2" output="Î"/>
-			<key code="3" output="Ï"/>
+			<key code="3" output="·"/>
 			<key code="4" output="♡"/>
 			<key code="5" output="˝"/>
 			<key code="6" output="¸"/>
@@ -510,12 +510,12 @@
 			<key code="16" output="←"/>
 			<key code="17" output="†"/>
 			<key code="18" output="⁄"/>
-			<key code="19" output="€"/>
-			<key code="20" output="‹"/>
+			<key code="19" output="²"/>
+			<key code="20" output="³"/>
 			<key code="21" output="›"/>
 			<key code="22" output="ﬂ"/>
 			<key code="23" output="ﬁ"/>
-			<key code="24" output="±"/>
+			<key code="24" output="≈"/>
 			<key code="25" output="·"/>
 			<key code="26" output="‡"/>
 			<key code="27" output="—"/>
@@ -734,7 +734,7 @@
 			<key code="16" output="¥"/>
 			<key code="17" output="†"/>
 			<key code="18" output="¡"/>
-			<key code="19" output="™"/>
+			<key code="19" output="²"/>
 			<key code="20" output="£"/>
 			<key code="21" output="¢"/>
 			<key code="22" output="§"/>
