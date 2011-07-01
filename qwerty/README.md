@@ -10,6 +10,7 @@ The following special characters are now available through key combinations:
 * `⌥` + `⇧` + `H` = `♡`
 * `⌥` + `⇧` + `2` = `²`
 * `⌥` + `⇧` + `3` = `³`
+* `⌥` + `⇧` + `5` = `⁵`
 * `⌥` + `3` = `☃`
 * `⌥` + `§` = `☆`
 * `⌥` + `⇧` + `F` = `·` (`⌥` + `⇧` + `9` works too)
@@ -19,6 +20,11 @@ The following special characters are now available through key combinations:
 * `⌥` + `⇧` + `O` = `⌥`
 * `⌥` + `⇧` + `M` = `−` (minus sign)
 * `⌥` + `⇧` + `=` = `≈`
+* `⌥` + `C` = `©` instead of `ç`
+* `⌥` + `G` = `ç` instead of `©`
+* `⇧` + `⌘` + `V` = `✓` instead of `◊`
+* `⇧` + `⌥` + `1` = `‽` instead of `⁄`
+* `⇧` + `⌥` + `Space` = zero width space
 
 ## How to install
 
