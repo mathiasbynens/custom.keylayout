@@ -12,7 +12,7 @@ The following special characters are now available through key combinations:
 * `⌥` + `⇧` + `3` = `³`
 * `⌥` + `⇧` + `5` = `⁵`
 * `⌥` + `3` = `☃`
-* `⌥` + `§` = `☆`
+* `⌥` + `§` = `※` (reference mark)
 * `⌥` + `⇧` + `F` = `·` (`⌥` + `⇧` + `9` works too)
 * `⌥` + `⇧` + `X` = `×`
 * `⌥` + `⇧` + `C` = `⌘`
@@ -22,6 +22,7 @@ The following special characters are now available through key combinations:
 * `⌥` + `⇧` + `=` = `≈`
 * `⌥` + `C` = `©` instead of `ç`
 * `⌥` + `G` = `ç` instead of `©`
+* `⌥` + `O` = `ಠ` instead of `ø`
 * `⇧` + `⌘` + `V` = `✓` instead of `◊`
 * `⇧` + `⌥` + `1` = `‽` instead of `⁄`
 * `⇧` + `⌥` + `Space` = zero width space
