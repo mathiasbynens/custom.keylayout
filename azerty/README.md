@@ -1,47 +1,50 @@
-# My custom AZERTY `.keylayout` file
+# My custom QWERTY `.keylayout` file
 
-This is an edited version of the default ‘French Numerical’ AZERTY keyboard layout available on OS X.
+This is an edited version of the default ‘US’ QWERTY keyboard layout available on OS X.
 
 The following special characters are now available through key combinations:
 
-* `⌥` + `i` = `←`
-* `⌥` + `⇧` + `i` = `→`
+* `⌥` + `Y` = `→`
+* `⌥` + `⇧` + `Y` = `←`
 * `⌥` + `H` = `♥`
 * `⌥` + `⇧` + `H` = `♡`
-* `⌥` + `2` = `²`
-* `⌥` + `⇧` + `2` = `³`
-* `⌥` + `L` = `λ`
-* `⌥` + `⇧` + `@` = `☆`
-* `⌥` + `⇧` + `;` = `‥`
+* `⌥` + `⇧` + `2` = `²`
+* `⌥` + `⇧` + `3` = `³`
+* `⌥` + `⇧` + `5` = `⁵`
+* `⌥` + `3` = [U+1D306 tetragram for centre](http://graphemica.com/%F0%9D%8C%86)
+* `⌥` + `§` = `※` (reference mark)
+* `⌥` + `⇧` + `F` = `·` (`⌥` + `⇧` + `9` works too)
 * `⌥` + `⇧` + `X` = `×`
 * `⌥` + `⇧` + `C` = `⌘`
 * `⌥` + `⇧` + `S` = `⇧`
 * `⌥` + `⇧` + `O` = `⌥`
 * `⌥` + `⇧` + `M` = `−` (minus sign)
-* `⌥` + `S` = `∑` (used to be `⌥` + `⇧` + `S`)
+* `⌥` + `⇧` + `=` = `≈`
+* `⌥` + `C` = `©` instead of `ç`
+* `⌥` + `G` = `ç` instead of `©`
+* `⌥` + `O` = `ಠ_ಠ` instead of `ø`
+* `⇧` + `⌘` + `V` = `✓` instead of `◊`
+* `⇧` + `⌥` + `1` = `‽` instead of `⁄`
+* `⇧` + `⌥` + `Space` = zero width space
 
 ## How to install
 
 1. Copy the `.keylayout` file to the `Keyboard Layouts` folder within `~/Library` or `/Library`. In command form:
 
-   ```bash
-   cd ~/Library/Keyboard\ Layouts; curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/azerty.keylayout
-   ```
+    ```bash
+cd ~/Library/Keyboard\ Layouts; curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/qwerty/qwerty.keylayout
+```
 
     …or…
 
-   ```bash
-   cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/azerty.keylayout
-   ```
+    ```bash
+cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/qwerty/qwerty.keylayout
+```
 
 2. Reboot, or log out and log in again.
-3. Enable the new keyboard layout via _System Preferences_ › _Language & Text_ › _Input Sources_ › _AZERTY_.
+3. Enable the new keyboard layout via _System Preferences_ › _Language & Text_ › _Input Sources_ › _QWERTY_.
 
 ## Notes
-
-Note that I used ‘French Numerical’ instead of the ‘Belgian’ keyboard layout because the only difference between those two is that [the French Numerical layout allows you to type numbers without pressing `Shift` (by enabling `Caps Lock`)](http://superuser.com/questions/138420/typing-numbers-on-a-macbook-pro-with-azerty-keyboard-with-caps-lock-possible).
-
-I’ve only overwritten key combinations that inserted characters that can be inserted by another, easier and more intuitive key combination. For example, to type `ê`, you can either press `^` followed by `E`, or `⌥` + `E`. I’d consider the last one to be obsolete.
 
 Mac OS X has supported `.keylayout` files since version 10.2 (Jaguar).
 
