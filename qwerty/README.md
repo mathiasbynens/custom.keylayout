@@ -11,7 +11,7 @@ The following special characters are now available through key combinations:
 * `⌥` + `⇧` + `2` = `²`
 * `⌥` + `⇧` + `3` = `³`
 * `⌥` + `⇧` + `5` = `⁵`
-* `⌥` + `3` = `☃`
+* `⌥` + `3` = `������`
 * `⌥` + `§` = `※` (reference mark)
 * `⌥` + `⇧` + `F` = `·` (`⌥` + `⇧` + `9` works too)
 * `⌥` + `⇧` + `X` = `×`
