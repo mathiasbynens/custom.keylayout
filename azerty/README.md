@@ -22,7 +22,18 @@ The following special characters are now available through key combinations:
 
 ## How to install
 
-1. Copy the `.keylayout` file to the `Keyboard Layouts` folder within `/Library` or `~/Library`.
+1. Copy the `.keylayout` file to the `Keyboard Layouts` folder within `~/Library` or `/Library`. In command form:
+
+   ```bash
+   cd ~/Library/Keyboard\ Layouts; curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/azerty.keylayout
+   ```
+
+    …or…
+
+   ```bash
+   cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/azerty.keylayout
+   ```
+
 2. Reboot, or log out and log in again.
 3. Enable the new keyboard layout via _System Preferences_ › _Language & Text_ › _Input Sources_ › _AZERTY_.
 
