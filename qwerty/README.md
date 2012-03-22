@@ -45,7 +45,7 @@ cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynen
 
 2. Reboot, or log out and log in again.
 3. Enable the new keyboard layout via _System Preferences_ › _Language & Text_ › _Input Sources_ › _QWERTY_.
-4. Optionally, you could make the custom keyboard layout the system default by running the Setup Assistant with root privileges. This way, it will be used for the login screen, and any new user accounts you create will default to this layout as well. Note that this can only be done for keyboard layouts in `/Library/Keyboard Layouts`.
+4. Optionally, you could [make the custom keyboard layout the system default](http://apple.stackexchange.com/a/44916/4408) by running the Setup Assistant with root privileges. This way, it will be used for the login screen, and any new user accounts you create will default to this layout as well. Note that this can only be done for keyboard layouts in `/Library/Keyboard Layouts`.
 
     ```bash
 sudo "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant"
