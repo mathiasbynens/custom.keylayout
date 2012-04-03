@@ -18,6 +18,7 @@ The following special characters are now available through key combinations:
 * `⌥` + `⇧` + `C` = `⌘`
 * `⌥` + `⇧` + `S` = `⇧`
 * `⌥` + `⇧` + `O` = `⌥`
+* `⌥` + `⇧` + `R` → `↪` instead of `‰`
 * `⌥` + `⇧` + `M` = `−` (minus sign)
 * `⌥` + `⇧` + `=` = `≈`
 * `⌥` + `C` = `©` instead of `ç`
