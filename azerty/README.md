@@ -41,8 +41,10 @@ cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynen
 4. Optionally, you could [make the custom keyboard layout the system default](http://apple.stackexchange.com/a/44916/4408) by running the Setup Assistant with root privileges. This way, it will be used for the login screen, and any new user accounts you create will default to this layout as well. Note that this can only be done for keyboard layouts in `/Library/Keyboard Layouts`.
 
     ```bash
-sudo "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant"
+sudo rm /var/db/.AppleSetupDone; sudo "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant"
 ```
+
+As of OS X 10.8, you will have to create a new user account in order to complete the Setup Assistant — but don’t worry, you can delete the new account afterwards.
 
 ## Notes
 

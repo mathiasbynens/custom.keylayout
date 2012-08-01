@@ -11,7 +11,8 @@ The following special characters are now available through key combinations:
 * `⌥` + `⇧` + `2` = `²`
 * `⌥` + `⇧` + `3` = `³`
 * `⌥` + `⇧` + `5` = `⁵`
-* `⌥` + `3` = [U+1D306 tetragram for centre](http://graphemica.com/%F0%9D%8C%86)
+* `⌥` + `3` = [U+1D306 tetragram for centre](http://codepoints.net/U+1D306)
+* `⌥` + `4` = [U+1F4A9 pile of poo](http://codepoints.net/U+1F4A9)
 * `⌥` + `§` = `※` (reference mark)
 * `⌥` + `⇧` + `F` = `·` (`⌥` + `⇧` + `9` works too)
 * `⌥` + `⇧` + `X` = `×`
@@ -49,8 +50,10 @@ cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynen
 4. Optionally, you could [make the custom keyboard layout the system default](http://apple.stackexchange.com/a/44916/4408) by running the Setup Assistant with root privileges. This way, it will be used for the login screen, and any new user accounts you create will default to this layout as well. Note that this can only be done for keyboard layouts in `/Library/Keyboard Layouts`.
 
     ```bash
-sudo "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant"
+sudo rm /var/db/.AppleSetupDone; sudo "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant"
 ```
+
+As of OS X 10.8, you will have to create a new user account in order to complete the Setup Assistant — but don’t worry, you can delete the new account afterwards.
 
 ## Notes
 
