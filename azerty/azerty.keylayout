@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
 <!-- Custom AZERTY keyboard layout by Mathias Bynens – http://mathiasbynens.be/ -->
-<keyboard group="0" id="5591" name="AZERTY" maxout="1">
+<keyboard group="0" id="9001" name="AZERTY" maxout="1">
 	<layouts>
 		<layout first="0" last="0" modifiers="30" mapSet="138"/>
 	</layouts>
