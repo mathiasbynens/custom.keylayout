@@ -25,6 +25,7 @@ The following special characters are now available through key combinations:
 * `⌥` + `C` = `©` instead of `ç`
 * `⌥` + `G` = `ç` instead of `©`
 * `⌥` + `O` = `ಠ_ಠ` instead of `ø`
+* `⌥` + `⇧` + `D` = `◕◡◕` instead of `Î`
 * `⇧` + `⌘` + `V` = `✓` instead of `◊`
 * `⇧` + `⌥` + `1` = `‽` instead of `⁄`
 * `⇧` + `⌥` + `Space` = zero width space
