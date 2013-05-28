@@ -89,4 +89,12 @@ Mac OS X has supported `.keylayout` files since version 10.2 (Jaguar).
 
 Created using [Ukelele.app](http://scripts.sil.org/ukelele).
 
-_– [Mathias](http://mathiasbynens.be/)_
+## Author
+
+| [![twitter/mathias](http://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](http://twitter.com/mathias "Follow @mathias on Twitter") |
+|---|
+| [Mathias Bynens](http://mathiasbynens.be/) |
+
+## License
+
+This keyboard layout is dual licensed under the [MIT](http://mths.be/mit) and [GPL](http://mths.be/gpl) licenses.
