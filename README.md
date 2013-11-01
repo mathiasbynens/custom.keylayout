@@ -1,6 +1,6 @@
 # My custom `.keylayout` files
 
-This repository contains customized AZERTY and QWERTY keyboard layouts in `.keylayout` format, for use on Mac OS X. Every `.keylayout` file has its own README, with details on what changed.
+This repository contains customized AZERTY and QWERTY keyboard layouts in `.keylayout` format, for use on OS X. Every `.keylayout` file has its own README, with details on what changed.
 
 ## How to install a new keyboard layout
 
