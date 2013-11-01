@@ -22,4 +22,4 @@ Created using [Ukelele.app](http://scripts.sil.org/ukelele).
 
 ## License
 
-These keyboard layouts are dual licensed under the [MIT](http://mths.be/mit) and [GPL](http://mths.be/gpl) licenses.
+These keyboard layouts are available under the [MIT](http://mths.be/mit) license.

@@ -97,4 +97,4 @@ Created using [Ukelele.app](http://scripts.sil.org/ukelele).
 
 ## License
 
-This keyboard layout is dual licensed under the [MIT](http://mths.be/mit) and [GPL](http://mths.be/gpl) licenses.
+This keyboard layout is available under the [MIT](http://mths.be/mit) license.
