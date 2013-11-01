@@ -1,6 +1,6 @@
-# My custom QWERTY `.keylayout` file
+# My custom QWERTY `.keylayout` file for US-style keyboards
 
-This is an edited version of the default ‘US’ QWERTY keyboard layout available on OS X.
+This is an edited version of the default ‘US’ QWERTY keyboard layout available on OS X for US-style hardware Apple keyboards. (See [the difference between UK and US QWERTY keyboards made by Apple](http://apple.stackexchange.com/a/106059/4408).)
 
 The following special characters are now available through key combinations:
 
@@ -8,26 +8,17 @@ The following special characters are now available through key combinations:
 * `⌥` + `⇧` + `Y` = `←`
 * `⌥` + `H` = `♥`
 * `⌥` + `⇧` + `H` = `♡`
-* `⌥` + `⇧` + `2` = `²`
-* `⌥` + `⇧` + `3` = `³`
-* `⌥` + `⇧` + `5` = `⁵`
-* `⌥` + `3` = [U+1D306 tetragram for centre](http://codepoints.net/U+1D306)
-* `⌥` + `4` = [U+1F4A9 pile of poo](http://codepoints.net/U+1F4A9)
-* `⌥` + `§` = `※` (reference mark)
-* `⌥` + `⇧` + `F` = `·` (`⌥` + `⇧` + `9` works too)
+* `⌥` + `3` = `𝌆` ([U+1D306 tetragram for centre](http://codepoints.net/U+1D306))
+* `⌥` + `4` = `💩` ([U+1F4A9 pile of poo](http://codepoints.net/U+1F4A9))
 * `⌥` + `⇧` + `X` = `×`
 * `⌥` + `⇧` + `C` = `⌘`
 * `⌥` + `⇧` + `S` = `⇧`
 * `⌥` + `⇧` + `O` = `⌥`
 * `⌥` + `⇧` + `R` → `↪` instead of `‰`
-* `⌥` + `⇧` + `M` = `−` (minus sign)
-* `⌥` + `⇧` + `=` = `≈`
 * `⌥` + `C` = `©` instead of `ç`
 * `⌥` + `G` = `ç` instead of `©`
 * `⌥` + `O` = `ಠ_ಠ` instead of `ø`
-* `⇧` + `⌘` + `V` = `✓` instead of `◊`
-* `⇧` + `⌥` + `1` = `‽` instead of `⁄`
-* `⇧` + `⌥` + `Space` = zero width space
+* `⇧` + `⌥` + `Space` = [zero width space](http://codepoints.net/U+200B)
 
 ## How to install
 
@@ -83,7 +74,7 @@ As of OS X 10.8, you will have to create a new user account in order to complete
 
 ## Notes
 
-Mac OS X has supported `.keylayout` files since version 10.2 (Jaguar).
+OS X has supported `.keylayout` files since version 10.2 (Jaguar).
 
 ## Credits
 

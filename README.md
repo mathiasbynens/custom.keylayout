@@ -8,7 +8,7 @@ This repository contains customized AZERTY and QWERTY keyboard layouts in `.keyl
 2. Reboot, or log out and log in again.
 3. Enable the new keyboard layout via _System Preferences_ › _Language & Text_ › _Input Sources_.
 
-Mac OS X has supported `.keylayout` files since version 10.2 (Jaguar).
+OS X has supported `.keylayout` files since version 10.2 (Jaguar).
 
 ## Credits
 

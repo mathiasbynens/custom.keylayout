@@ -1,24 +1,33 @@
-# My custom AZERTY `.keylayout` file
+# My custom QWERTY `.keylayout` file for UK-style keyboards
 
-This is an edited version of the default ‘French Numerical’ AZERTY keyboard layout available on OS X.
+This is an edited version of the default ‘US’ QWERTY keyboard layout available on OS X for UK-style hardware Apple keyboards. (See [the difference between UK and US QWERTY keyboards made by Apple](http://apple.stackexchange.com/a/106059/4408).)
 
 The following special characters are now available through key combinations:
 
-* `⌥` + `i` = `←`
-* `⌥` + `⇧` + `i` = `→`
+* `⌥` + `Y` = `→`
+* `⌥` + `⇧` + `Y` = `←`
 * `⌥` + `H` = `♥`
 * `⌥` + `⇧` + `H` = `♡`
-* `⌥` + `2` = `²`
-* `⌥` + `⇧` + `2` = `³`
-* `⌥` + `L` = `λ`
-* `⌥` + `⇧` + `@` = `☆`
-* `⌥` + `⇧` + `;` = `‥`
+* `⌥` + `⇧` + `2` = `²`
+* `⌥` + `⇧` + `3` = `³`
+* `⌥` + `⇧` + `5` = `⁵`
+* `⌥` + `3` = [U+1D306 tetragram for centre](http://codepoints.net/U+1D306)
+* `⌥` + `4` = [U+1F4A9 pile of poo](http://codepoints.net/U+1F4A9)
+* `⌥` + `§` = `※` (reference mark)
+* `⌥` + `⇧` + `F` = `·` (`⌥` + `⇧` + `9` works too)
 * `⌥` + `⇧` + `X` = `×`
 * `⌥` + `⇧` + `C` = `⌘`
 * `⌥` + `⇧` + `S` = `⇧`
 * `⌥` + `⇧` + `O` = `⌥`
+* `⌥` + `⇧` + `R` → `↪` instead of `‰`
 * `⌥` + `⇧` + `M` = `−` (minus sign)
-* `⌥` + `S` = `∑` (used to be `⌥` + `⇧` + `S`)
+* `⌥` + `⇧` + `=` = `≈`
+* `⌥` + `C` = `©` instead of `ç`
+* `⌥` + `G` = `ç` instead of `©`
+* `⌥` + `O` = `ಠ_ಠ` instead of `ø`
+* `⇧` + `⌘` + `V` = `✓` instead of `◊`
+* `⇧` + `⌥` + `1` = `‽` instead of `⁄`
+* `⇧` + `⌥` + `Space` = zero width space
 
 ## How to install
 
@@ -26,19 +35,19 @@ The following special characters are now available through key combinations:
 
 ```bash
 # Install the keyboard layout only for the current user
-cd ~/Library/Keyboard\ Layouts; curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/azerty.keylayout
+cd ~/Library/Keyboard\ Layouts; curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/uk-qwerty/qwerty.keylayout
 ```
 
 …or…
 
 ```bash
 # Install the keyboard layout system-wide
-cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/azerty.keylayout
+cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/uk-qwerty/qwerty.keylayout
 ```
 
 2. Reboot, or log out and log in again.
 
-3. Enable the new keyboard layout via _System Preferences_ › _Language & Text_ › _Input Sources_ › _AZERTY_.
+3. Enable the new keyboard layout via _System Preferences_ › _Language & Text_ › _Input Sources_ › _QWERTY_.
 
 ## How to remove the default OS X keyboard layout from the Input menu
 
@@ -49,7 +58,7 @@ You can remove any default OS X keyboard layout (that you won’t be using anymo
 2. Run the following command:
 
     ```bash
-plist=~/Library/Preferences/ByHost/com.apple.HIToolbox*.plist; curl -# https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/tmp.plist > $plist
+plist=~/Library/Preferences/ByHost/com.apple.HIToolbox*.plist; curl -# https://raw.github.com/mathiasbynens/custom.keylayout/master/qwerty/tmp.plist > $plist
 ```
 
 3. Log out of your OS X account, then log back in.
@@ -73,10 +82,6 @@ sudo rm /var/db/.AppleSetupDone; sudo "/System/Library/CoreServices/Setup Assist
 As of OS X 10.8, you will have to create a new user account in order to complete the Setup Assistant — but don’t worry, you can delete the new account afterwards.
 
 ## Notes
-
-Note that I used ‘French Numerical’ instead of the ‘Belgian’ keyboard layout because the only difference between those two is that [the French Numerical layout allows you to type numbers without pressing `Shift` (by enabling `Caps Lock`)](http://superuser.com/q/138420/3218).
-
-I’ve only overwritten key combinations that inserted characters that can be inserted by another, easier and more intuitive key combination. For example, to type `ê`, you can either press `^` followed by `E`, or `⌥` + `E`. I’d consider the last one to be obsolete.
 
 OS X has supported `.keylayout` files since version 10.2 (Jaguar).
 
