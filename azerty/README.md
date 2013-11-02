@@ -22,14 +22,7 @@ The following special characters are now available through key combinations:
 
 ## How to install
 
-1. Copy the `.keylayout` file to the `Keyboard Layouts` folder within `~/Library` or `/Library`. In command form:
-
-```bash
-# Install the keyboard layout only for the current user
-cd ~/Library/Keyboard\ Layouts; curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/azerty.keylayout
-```
-
-…or…
+1. Copy the `.keylayout` file to the `Keyboard Layouts` folder within `/Library`. In command form:
 
 ```bash
 # Install the keyboard layout system-wide
@@ -42,35 +35,15 @@ cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynen
 
 ## How to remove the default OS X keyboard layout from the Input menu
 
-You can remove any default OS X keyboard layout (that you won’t be using anymore) from the Input menu [as follows](http://apple.stackexchange.com/a/60521/4408):
+You can remove any default OS X keyboard layout (that you won’t be using anymore) from the Input menu [as follows](http://osxnotes.net/keylayout-files-and-ukelele.html#disabling-other-input-sources):
 
-1. Go to _System Preferences_ → _Language & Text_ → _Input Sources_ and enable the _Afghan Dari_ keyboard layout (i.e. the first one in the list).
+1. Make sure the current input source is your custom keyboard layout.
 
-2. Run the following command:
+2. Open `~/Library/Preferences/com.apple.HIToolbox.plist`. (If needed, you can convert the `plist` to XML by running `plutil -convert xml1`.)
 
-    ```bash
-plist=~/Library/Preferences/ByHost/com.apple.HIToolbox*.plist; curl -# https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/tmp.plist > $plist
-```
+3. Remove the input source or input sources you want to disable from the `AppleEnabledInputSources` dictionary. If there is an `AppleDefaultAsciiInputSource` key, remove it.
 
-3. Log out of your OS X account, then log back in.
-
-4. Run the following command:
-
-    ```bash
-plist=~/Library/Preferences/ByHost/com.apple.HIToolbox*.plist; /usr/libexec/PlistBuddy -c "Delete :AppleEnabledInputSources:1 dict" $plist
-```
-
-5. Log out of your OS X account, then log back in.
-
-## How to make a custom keyboard layout the system default
-
-Optionally, you could [make the custom keyboard layout the system default](http://apple.stackexchange.com/a/44916/4408) by running the Setup Assistant with root privileges. This way, it will be used for the login screen, and any new user accounts you create will default to this layout as well. Note that this can only be done for keyboard layouts in `/Library/Keyboard Layouts`.
-
-```bash
-sudo rm /var/db/.AppleSetupDone; sudo "/System/Library/CoreServices/Setup Assistant.app/Contents/MacOS/Setup Assistant"
-```
-
-As of OS X 10.8, you will have to create a new user account in order to complete the Setup Assistant — but don’t worry, you can delete the new account afterwards.
+4. Reboot.
 
 ## Notes
 
