@@ -24,14 +24,26 @@ The following special characters are now available through key combinations:
 
 1. Copy the `.keylayout` file to the `Keyboard Layouts` folder within `/Library`. In command form:
 
-```bash
-# Install the keyboard layout system-wide
-cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/azerty.keylayout
-```
+    ```bash
+    # Install the keyboard layout system-wide
+    cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/azerty.keylayout
+    ```
 
 2. Reboot, or log out and log in again.
 
 3. Enable the new keyboard layout via _System Preferences_ › _Language & Text_ › _Input Sources_ › _AZERTY_.
+
+## How to make the custom keyboard layout the system default
+
+To use the custom layout for the login screen, you need to [set it as the system default](http://apple.stackexchange.com/a/108836/4408).
+
+1. Run the following command:
+
+    ```bash
+    sudo curl -#o /Library/Preferences/com.apple.HIToolbox.plist https://raw.github.com/mathiasbynens/custom.keylayout/master/azerty/tmp.plist
+    ```
+
+2. Reboot.
 
 ## How to remove the default OS X keyboard layout from the Input menu
 

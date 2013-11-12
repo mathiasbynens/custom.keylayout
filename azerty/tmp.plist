@@ -1,56 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>AppleDefaultAsciiInputSource</key>
 	<dict>
-		<key>InputSourceKind</key>
-		<string>Keyboard Layout</string>
-		<key>KeyboardLayout ID</key>
-		<integer>9001</integer>
-		<key>KeyboardLayout Name</key>
-		<string>AZERTY</string>
+		<key>AppleCurrentKeyboardLayoutInputSourceID</key>
+		<string>org.unknown.keylayout.QWERTY</string>
+		<key>AppleDefaultAsciiInputSource</key>
+		<dict>
+			<key>InputSourceKind</key>
+			<string>Keyboard Layout</string>
+			<key>KeyboardLayout ID</key>
+			<integer>9001</integer>
+			<key>KeyboardLayout Name</key>
+			<string>AZERTY</string>
+		</dict>
+		<key>AppleEnabledInputSources</key>
+		<array>
+			<dict>
+				<key>InputSourceKind</key>
+				<string>Keyboard Layout</string>
+				<key>KeyboardLayout ID</key>
+				<integer>9001</integer>
+				<key>KeyboardLayout Name</key>
+				<string>AZERTY</string>
+			</dict>
+		</array>
 	</dict>
-	<key>AppleEnabledInputSources</key>
-	<array>
-		<dict>
-			<key>InputSourceKind</key>
-			<string>Keyboard Layout</string>
-			<key>KeyboardLayout ID</key>
-			<integer>9001</integer>
-			<key>KeyboardLayout Name</key>
-			<string>AZERTY</string>
-		</dict>
-		<dict>
-			<key>InputSourceKind</key>
-			<string>Keyboard Layout</string>
-			<key>KeyboardLayout ID</key>
-			<integer>-2902</integer>
-			<key>KeyboardLayout Name</key>
-			<string>Afghan Dari</string>
-		</dict>
-	</array>
-	<key>AppleInputSourceHistory</key>
-	<array>
-		<dict>
-			<key>InputSourceKind</key>
-			<string>Keyboard Layout</string>
-			<key>KeyboardLayout ID</key>
-			<integer>9001</integer>
-			<key>KeyboardLayout Name</key>
-			<string>AZERTY</string>
-		</dict>
-	</array>
-	<key>AppleSelectedInputSources</key>
-	<array>
-		<dict>
-			<key>InputSourceKind</key>
-			<string>Keyboard Layout</string>
-			<key>KeyboardLayout ID</key>
-			<integer>9001</integer>
-			<key>KeyboardLayout Name</key>
-			<string>AZERTY</string>
-		</dict>
-	</array>
-</dict>
 </plist>
