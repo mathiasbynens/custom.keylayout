@@ -35,7 +35,7 @@ The following special characters are now available through key combinations:
 
     ```bash
     # Install the keyboard layout system-wide
-    cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.github.com/mathiasbynens/custom.keylayout/master/uk-qwerty/qwerty.keylayout
+    cd /Library/Keyboard\ Layouts; sudo curl -O# https://raw.githubusercontent.com/mathiasbynens/custom.keylayout/master/uk-qwerty/qwerty.keylayout
     ```
 
 2. Reboot, or log out and log in again.
@@ -49,7 +49,7 @@ To use the custom layout for the login screen, you need to [set it as the system
 1. Run the following command:
 
     ```bash
-    sudo curl -#o /Library/Preferences/com.apple.HIToolbox.plist https://raw.github.com/mathiasbynens/custom.keylayout/master/uk-qwerty/tmp.plist
+    sudo curl -#o /Library/Preferences/com.apple.HIToolbox.plist https://raw.githubusercontent.com/mathiasbynens/custom.keylayout/master/uk-qwerty/tmp.plist
     ```
 
 2. Reboot.
@@ -76,7 +76,7 @@ Created using [Ukelele.app](http://scripts.sil.org/ukelele).
 
 ## Author
 
-| [![twitter/mathias](http://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](http://twitter.com/mathias "Follow @mathias on Twitter") |
+| [![twitter/mathias](https://gravatar.com/avatar/24e08a9ea84deb17ae121074d0f17125?s=70)](https://twitter.com/mathias "Follow @mathias on Twitter") |
 |---|
 | [Mathias Bynens](http://mathiasbynens.be/) |
 
