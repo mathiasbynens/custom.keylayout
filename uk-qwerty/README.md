@@ -40,7 +40,7 @@ The following special characters are now available through key combinations:
 
 2. Reboot, or log out and log in again.
 
-3. Enable the new keyboard layout via _System Preferences_ › _Language & Text_ › _Input Sources_ › _QWERTY_.
+3. Enable the new keyboard layout via _System Preferences_ › _Keyboard_ › _Input Sources_ › _QWERTY_.
 
 ## How to make the custom keyboard layout the system default
 
